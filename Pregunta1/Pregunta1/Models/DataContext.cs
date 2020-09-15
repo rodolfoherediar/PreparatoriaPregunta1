@@ -12,5 +12,7 @@ namespace Pregunta1.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Pregunta1.Models.heredia> heredias { get; set; }
     }
 }
